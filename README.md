@@ -111,6 +111,27 @@ Commit the `.claude/` directory so your whole team inherits the same behaviour a
 
 ---
 
+## Recommended Plugins
+
+| Plugin | Description |
+|---|---|
+| `superpowers` | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques |
+| `nw` | nWave AI-powered workflow framework — 23 agents, 98+ skills, TDD enforcement, and wave-based development methodology |
+| `context7` | MCP server for up-to-date documentation lookup — pulls version-specific docs and code examples directly from source repositories |
+| `code-review` | Automated PR code review using multiple specialised agents with confidence-based scoring |
+| `pr-review-toolkit` | Comprehensive PR review agents specialising in comments, tests, error handling, type design, and code simplification |
+| `security-guidance` | Hook that warns about potential security issues (command injection, XSS, unsafe patterns) when editing files |
+| `github` | Official GitHub MCP server — manage issues, PRs, and repositories via GitHub's full API |
+| `serena` | Semantic code analysis MCP server for intelligent code understanding, refactoring suggestions, and codebase navigation via LSP |
+| `typescript-lsp` | TypeScript/JavaScript language server providing go-to-definition, find references, and error checking |
+| `frontend-design` | Skill for producing distinctive, production-grade frontend UI/UX implementations |
+| `code-simplifier` | Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality |
+| `skill-creator` | Create, improve, and benchmark Claude Code skills; run evals to measure skill performance |
+| `claude-md-management` | Audit and maintain CLAUDE.md files — capture session learnings and keep project memory current |
+| `claude-code-setup` | Analyse a codebase and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents |
+
+---
+
 ## Further Reading
 
 - [`docs/claude-code-workflow-guide.md`](docs/claude-code-workflow-guide.md) — detailed guide covering CLAUDE.md configuration, persona design, role switching, and the full development cycle
